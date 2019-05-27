@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.card-container {
+    border: .1rem solid gray;
+    border-radius: .6rem;
+}
+.card-banner img {
+    width:100%;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+}
+.card-content {
+    padding: 1.5rem;
+}

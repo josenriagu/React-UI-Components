@@ -3,7 +3,10 @@
     border: .1rem solid gray;
     border-radius: .6rem;
     width: 93%;
-    margin: 0 0 0 auto;
+    margin: 0 0 1.5rem auto;
+}
+.card-container:hover{
+    cursor: pointer;
 }
 .card-banner img {
     width:100%;

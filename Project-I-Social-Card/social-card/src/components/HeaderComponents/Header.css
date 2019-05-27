@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin-bottom: 1rem;
+}
+
+.image-thumbnail {
+    /* background-color: red; */
+    border-radius: 9rem;
+    color: white;
+    width: 15%;
+}
+
+.image-thumbnail img {
+    width:100%;
+    color: white;
+}
+.header-content {
+    width: 83%;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    /* background-color: red; */
+    /* justify-content: space-between; */
+}
+.header-title div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    color         : gray;
+    font-size: 1.7rem;
+}

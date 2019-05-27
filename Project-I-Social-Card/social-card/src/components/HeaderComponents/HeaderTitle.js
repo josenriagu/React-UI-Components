@@ -1,11 +1,12 @@
 import React from 'react';
+import moment from 'moment';
 import './Header.css';
 
 const title = {
     h3: "Lambda School",
     handle: "@LambdaSchool",
     separator : ".",
-    date: "26 Jan"
+    date: moment().format('D MMMM')
 }
 
 const HeaderTitle = () => {

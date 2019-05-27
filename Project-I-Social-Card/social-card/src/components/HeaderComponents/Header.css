@@ -6,28 +6,16 @@
     /* background-color: red; */
     margin-bottom      : 1.5rem;
 }
-
 .image-thumbnail {
     width        : 7%;
 }
-
 .image-thumbnail img {
     width        : 100%;
 }
-
 .header-content {
     width: 92%;
 }
-
 .header-title {
     display    : flex;
     align-items: center;
-}
-
-.header-title div {
-    display        : flex;
-    flex-direction : column;
-    justify-content: center;
-    color          : gray;
-    font-size      : 1.7rem;
 }

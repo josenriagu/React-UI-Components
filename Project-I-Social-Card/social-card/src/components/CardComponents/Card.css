@@ -2,6 +2,8 @@
 .card-container {
     border: .1rem solid gray;
     border-radius: .6rem;
+    width: 93%;
+    margin: 0 0 0 auto;
 }
 .card-banner img {
     width:100%;
@@ -9,5 +11,5 @@
     border-top-right-radius: .6rem;
 }
 .card-content {
-    padding: 1.5rem;
+    padding: 2rem;
 }

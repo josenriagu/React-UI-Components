@@ -1,37 +1,33 @@
 /* All styles for your header Components live here */
 .header-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    display            : flex;
+    align-items        : flex-start;
+    justify-content    : space-between;
     /* background-color: red; */
-    margin-bottom: 1rem;
+    margin-bottom      : 1.5rem;
 }
 
 .image-thumbnail {
-    /* background-color: red; */
-    border-radius: 9rem;
-    color: white;
-    width: 15%;
+    width        : 7%;
 }
 
 .image-thumbnail img {
-    width:100%;
-    color: white;
+    width        : 100%;
 }
+
 .header-content {
-    width: 83%;
+    width: 92%;
 }
+
 .header-title {
-    display: flex;
+    display    : flex;
     align-items: center;
-    width: 60%;
-    /* background-color: red; */
-    /* justify-content: space-between; */
 }
+
 .header-title div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    color         : gray;
-    font-size: 1.7rem;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    color          : gray;
+    font-size      : 1.7rem;
 }

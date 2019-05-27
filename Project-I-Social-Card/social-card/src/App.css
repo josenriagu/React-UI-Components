@@ -3,8 +3,7 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .app {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   padding: 1.5rem;
-  /* background-color: green; */
 }

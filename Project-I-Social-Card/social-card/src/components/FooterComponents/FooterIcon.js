@@ -5,11 +5,11 @@ const anchorclick = (e) => {
     e.preventDefault();
     window.alert('You clicked an icon');
 }
-const FooterIcon = ({ href, icon, count }) => {
+const FooterIcon = ({ src, count }) => {
     return (
         <div className='footer-icon' onClick={anchorclick}>
             <div>
-                <i className={icon}></i>
+                <img src={src} alt='icon'></img>
             </div>
             <div className='count'>{count}</div>
         </div>

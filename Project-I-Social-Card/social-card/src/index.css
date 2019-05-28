@@ -1,5 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+/* define global font size */
+html {
+  font-size: 62.5%;
+}
+/* define global font family */
+html,
 body {
+  font-family: 'Roboto', sans-serif;
+}
+/* define span markup style */
+span {
+  /* font-weight: 600; */
+  color         : gray;
+  font-size: 1.7rem;
+  margin: 0 0 0 .8rem;
+}
+/* define heading level 3 markup style */
+h3 {
+  font-size: 1.8rem;
   margin: 0;
-  padding: 0.4rem;
-  font-family: sans-serif;
+}
+/* define paragraph markup style */
+p {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 .5rem 0;
 }

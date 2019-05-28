@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+.header-container {
+    display            : flex;
+    align-items        : flex-start;
+    justify-content    : space-between;
+    /* background-color: red; */
+    margin-bottom      : 1.5rem;
+}
+.image-thumbnail {
+    width        : 7%;
+}
+.image-thumbnail img {
+    width        : 100%;
+}
+.header-content {
+    width: 92%;
+}
+.header-title {
+    display    : flex;
+    align-items: center;
+}

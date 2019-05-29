@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 35%;
+  margin: 0 auto;
+  background-color: gray
+}
